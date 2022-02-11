@@ -92,6 +92,13 @@ button {
   cursor: pointer;
 }
 
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  grid-column-start: 3;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 2.6rem;
@@ -357,6 +364,10 @@ main {
 }
 
 .skills__list-item {
+}
+
+.gridArea {
+  display: grid;
 }
 
 /* END PART 11 */
