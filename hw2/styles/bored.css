@@ -1,0 +1,19 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#bored-button {
+  position: sticky;
+  top: 60vh;
+  cursor: pointer;
+}
+
+#card {
+  align-items: center;
+  text-align: center;
+}
