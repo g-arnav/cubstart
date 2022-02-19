@@ -17,6 +17,7 @@ boredButton.addEventListener("click", async () => {
   // process this data into 'p' elements
   // append the text elements as children of the card
   card.replaceChildren();
+  card.style.outline = "#002648 solid 0px";
   const activity = await fetchActivity();
   // BEGIN PART 8
   for (const [key, value] of Object.entries(activity)) {
@@ -26,5 +27,6 @@ boredButton.addEventListener("click", async () => {
       card.appendChild(detail);
     }
   }
+  card.style.outline = "#002648 solid 1px";
   // END PART 8
 });
